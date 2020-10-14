@@ -108,6 +108,8 @@ E_{Total} &= \langle E \rangle + E_{G} \\
 \end{align}
 $$
 
+When the star shrinks -- the radius $R$ decreases. But the total energy will remain 'stable'. This means that the first term in the paranthesis can balance itself against the second term.
+
 ## Energy of a Relativistic Degenerate Electron Gas
 
 Since the Fermi energy corresponds to that of the last filled state, it 'sets the scale' for the energy of the degenerate electron gas. As the volume is compressed, this energy will increase until relativistic effects start to come in. The density of states that was used (equation 4) is based on non-relativistic physics, so we replace this with the 'relativistic density of states' which is:
