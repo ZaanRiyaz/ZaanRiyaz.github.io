@@ -48,7 +48,7 @@ At low energies, the fermions will have low momenta. However, recall that Pauli 
 
 ## Energy of a Non-Relativistic Degenerate Electron Gas
 
-First, we can calculate the total number of electrons using the _non-relativistic_ 'density of states':
+We can model a white dwarf as a a degenerate gas composed of electrons. Calculating the total number of electrons using the _non-relativistic_ 'density of states',
 
 $$
     \tilde{E}(E) = 2 \cdot \frac{4\pi\sqrt{2}V}{(2\pi\hbar)^{3}}m^{3/2}E^{1/2}
