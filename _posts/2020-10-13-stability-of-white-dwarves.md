@@ -74,7 +74,7 @@ $$
 \tag{6}
 $$
 
-The total energy can be calculated using the density of states given in equation 4:
+The kinetic energy can be calculated using the density of states given in equation 4:
 
 $$  \begin{align}
     \langle E \rangle &= \int_{0}^{\infty} \tilde{E}(E)E dE \\
@@ -133,7 +133,7 @@ The kinetic energy of the electrons can be found using
 
 $$
 \begin{align}
-    E_{K} &= \int^{E_{F}}_{0} \tilde{E}_{rel}(E)EdE \\
+    \langle E \rangle &= \int^{E_{F}}_{0} \tilde{E}_{rel}(E)EdE \\
     &= \frac{8\pi V}{(2 \pi \hbar)^{3}c^{3}}\bigg( \frac{1}{4}E_{F}^{4} - \frac{1}{4}m^{2}c^{4}E_{F}^{2} + \cdots \bigg)
 \end{align}
 \tag{11}
@@ -161,10 +161,10 @@ Putting this together with the kinetic energy found in the previous section, we 
 
 $$
 \begin{align}
-E_{Total} &= E_{G} + E_{K} \\
+E_{Total} &= \langle E \rangle + E_{G} \\
 &= \bigg[-\frac{3}{5}GM^{2} + \frac{1}{3}\bigg( \frac{9}{4}\bigg)^{4/3} \pi^{1/3} \langle N \rangle^{4/3}\hbar c \bigg] \frac{1}{R} + \mathcal{O}(R)\\
 \end{align}
 \tag{14}
 $$
 
-We can approximate the mass of the star to be $M =\langle N \rangle m_{proton}$.
+This is different from the non-relativistic case because both terms in the parantheses scale as $R^{-1}$ (whereas previously, on the gravitational term scaled this way).
