@@ -7,7 +7,9 @@ tags: []
 date: 2020-10-13
 toc: true
 ---
-\[Introduction\]
+A 'white dwarf' is a stellar remnant left behind when stars with a mass less than  $1.44 M_{\odot}$ reach the end of their lifecycles. Their stability from collapsing in on theirselves due to the force of gravity depends on the pressure that is exerted outwards. This is called 'electron degeneracy pressure', which has it's origins in quantum mechanics.
+
+
 
 # Degenerate Fermion Gas
 We can begin by thinking of the two branches of elementary particles: bosons and fermions. The difference between them is that bosons have integer 'spin' and fermions have half-integer 'spin', where 'spin' is an intrinsic angular momentum quantum number (examples: electrons are fermions with a spin of 1/2. The photon is a boson with a spin of 1). Fermions follow a very important rule called the Pauli exclusion principle which can be stated as follows,
@@ -72,6 +74,25 @@ $$
 \tag{6}
 $$
 
+The total energy can be calculated using the density of states given in equation 4:
+
+$$  \begin{align}
+    \langle E \rangle &= \int_{0}^{\infty} \tilde{E}(E)E dE \\
+    &=  \int_{0}^{E_{F}} \tilde{E}(E)E dE \\
+    &= \frac{3}{5}\langle N \rangle E_{F}
+    \end{align}
+\tag{7}
+$$
+
+Then, using a general expression that holds for both bosons and fermions $P = \frac{2}{3V}\langle E \rangle$, we can see that the pressure exerted by the degenerate fermion gas is
+
+$$
+    P = \frac{32 \pi \sqrt{2}}{15(2 \pi \hbar)^{2}}m^{3/2}E_{F}^{5/2}
+\tag{8}
+$$
+
+(Remember that there is $V$ and $\langle N \rangle$ dependence in the $E_{F}$ term) This is the fermion degeneracy pressure. Remembering that the derivation thus far assumes that T = 0, we still have non-zero pressure arising due to the Pauli exclusion principle.
+
 ## Energy of a Relativistic Degenerate Electron Gas
 
 Since the Fermi energy corresponds to that of the last filled state, it 'sets the scale' for the energy of the degenerate electron gas. As the volume is compressed, this energy will increase until relativistic effects start to come in. The density of states that was used (equation 4) is based on non-relativistic physics, so we replace this with the relativistic density of states which is:
@@ -81,14 +102,14 @@ $$
     \tilde{E}_{rel} &= \frac{8 \pi V}{(2 \pi \hbar)^{3}c^{3}}E^{2}\sqrt{1 - \frac{m^{2}c^{4}}{E^{2}}} \\
     &= \frac{8 \pi V}{(2 \pi \hbar)^{3}c^{3}}\bigg( E^{2} - \frac{1}{2}m^{2}c^{4} + \cdots \bigg)
 \end{align}
-\tag{7}
+\tag{9}
 $$
 
 In the relativistic regime, the number of electrons is found (using the same integral as in equation 5 but using $\tilde{E}_{rel}$ instead of $\tilde{E}$) by:
 
 $$
 \langle N \rangle = \frac{8 \pi V}{(2 \pi \hbar)^{3}c^{3}}\bigg( \frac{E^{3}_{F}}{3} - \frac{1}{2}m^{2}c^{4}E_{F} + \cdots \bigg)
-\tag{8}
+\tag{10}
 $$
 
 The kinetic energy of the electrons can be found using
@@ -98,7 +119,7 @@ $$
     E_{K} &= \int^{E_{F}}_{0} \tilde{E}_{rel}(E)EdE \\
     &= \frac{8\pi V}{(2 \pi \hbar)^{3}c^{3}}\bigg( \frac{1}{4}E_{F}^{4} - \frac{1}{4}m^{2}c^{4}E_{F}^{2} + \cdots \bigg)
 \end{align}
-\tag{9}
+\tag{11}
 $$
 
 \[This next step is a bit dodgy to me but I'm thinking of a good way to think about this \]
@@ -107,7 +128,7 @@ Looking at equation 8, we can neglect all the terms except the first term in the
 
 $$
 E_{F} = \bigg[ \frac{3(2 \pi \hbar)^{3}c^{3} \langle N \rangle}{8 \pi V}\bigg]^{1/3}
-\tag{10}
+\tag{12}
 $$
 
 # Gravity vs. Pressure
@@ -116,7 +137,7 @@ The gravitational potential of a spherically symmetric mass is given by:
 
 $$
 E_{G} = -\frac{3}{5}\frac{GM^{2}}{R}
-\tag{11}
+\tag{13}
 $$
 
 Putting this together with the kinetic energy found in the previous section, we have:
@@ -126,8 +147,7 @@ $$
 E_{Total} &= E_{G} + E_{K} \\
 &= \bigg[-\frac{3}{5}GM^{2} + \frac{1}{3}\bigg( \frac{9}{4}\bigg)^{4/3} \pi^{1/3} \langle N \rangle^{4/3}\hbar c \bigg] \frac{1}{R} + \mathcal{O}(R)\\
 \end{align}
-\tag{12}
+\tag{14}
 $$
 
-We can approximate the mass of the star to be $M =\langle N \rangle m_{proton}$. Substituting this in, and tidying up equation 12, 
-
+We can approximate the mass of the star to be $M =\langle N \rangle m_{proton}$.
