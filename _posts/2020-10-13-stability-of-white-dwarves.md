@@ -1,0 +1,127 @@
+---
+title: "Stability of White Dwarves"
+modified:
+categories: Notes
+excerpt: "A brief look at the physics behind how electron degeneracy pressure holds a white dwarf from collapsing into itself any further."
+tags: []
+date: 2020-10-13
+toc: true
+---
+\[Introduction\]
+
+# Degenerate Fermion Gas
+We can begin by thinking of the two branches of elementary particles: bosons and fermions. The difference between them is that bosons have integer 'spin' and fermions have half-integer 'spin', where 'spin' is an intrinsic angular momentum quantum number (examples: electrons are fermions with a spin of 1/2. The photon is a boson with a spin of 1). Fermions follow a very important rule called the Pauli exclusion principle which can be stated as follows,
+
+> "No two fermions can exhibit the same quantum numbers in a quantum system".
+
+For instance, if particle A has quantum numbers (1,1,1) then another particle B can't have quantum numbers (1,1,1) because it violates Pauli exclusion. Anything else is permitted.
+
+## Fermi - Dirac Distribution
+
+The Fermi - Dirac distribution tells us about the average number of fermions in a particular quantum state. If we label these states as $\vec{k}$, the Fermi - Dirac distribution is:
+
+$$
+    \langle N_{\vec{k}}\rangle = \frac{1}{e^{\beta(E_{\vec{k}} - \mu) + 1}} 
+\tag{1} 
+$$
+
+Here, $E_{\vec{k}}$ tells us the energy of the state $\vec{k}$, $\mu$ is called the energy potential and $\beta = 1/K_{B}T$ where $T$ is the temperature and $K_{B}$ is Boltzmann's constant.
+
+The behaviour of the Fermi - Dirac distribution is quite easy to think about, at low temperatures. Lucky for us, this is the regime that we're interested in.
+
+$$
+    \langle N_{\vec{k}}\rangle \longrightarrow 
+    \begin{cases}
+        1 \quad ; \quad E_{\vec{k}} \quad < \quad \mu\\
+        0 \quad ; \quad E_{\vec{k}} \quad > \quad \mu
+    \end{cases}
+\tag{2}
+$$
+
+What this means is that the states above an energy of $\mu$ is *unoccupied* (by a fermion) although states below this energy are *occupied*. At $T = 0$, we will have $\mu(T) = E_{\vec{k}}$. This constant energy is called the 'Fermi energy' $E_{F}$.
+
+At low energies, the fermions will have low momenta. However, recall that Pauli exclusion prevents the fermions from all crowding the lowest momentum state. If the next lowest energy state is available, it gets occupied by a fermion and so on until we reach an energy of $E_{F}$. This is whats called a *degenerate fermion gas*.
+
+## Energy of a Degenerate Electron Gas
+
+First, we can calculate the total number of electrons using the _non-relativistic_ 'density of states':
+
+$$
+    \tilde{E}(E) = 2 \cdot \frac{4\pi\sqrt{2}V}{(2\pi\hbar)^{3}}m^{3/2}E^{1/2}
+\tag{4}
+$$
+
+The number of fermions $\langle N \rangle$ is then:
+
+$$  \begin{align}
+    \langle N \rangle &= \int_{0}^{\infty} \tilde{E}(E) \langle N_{\vec{k}} \rangle dE \\
+    &=  \int_{0}^{E_{F}} \tilde{E}(E) dE \\
+    &= \frac{16 \pi \sqrt{2}V}{3(2\pi \hbar)^{3}}m^{3/2}E_{F}^{3/2}
+    \end{align}
+\tag{5}
+$$
+
+where in the second step we refer to equation $(2)$. We also integrate up to $E_{F}$ instead of $\infty$ because there are no particles in states with energy greater than the Fermi energy. This expression can be 'flipped' to give:
+
+$$
+    E_{F} = \bigg(\frac{3 \langle N \rangle}{16 \pi \sqrt{2}V}\bigg)^{2/3}\frac{(2 \pi \hbar)^{2}}{m}
+\tag{6}
+$$
+
+Since the Fermi energy corresponds to that of the last filled state, it 'sets the scale' for the energy of the degenerate electron gas. As the volume is compressed, this energy will increase until relativistic effects start to come in. The density of states that was used (equation 4) is based on non-relativistic physics, so we replace this with the relativistic density of states which is:
+
+$$
+\begin{align}
+    \tilde{E}_{rel} &= \frac{8 \pi V}{(2 \pi \hbar)^{3}c^{3}}E^{2}\sqrt{1 - \frac{m^{2}c^{4}}{E^{2}}} \\
+    &= \frac{8 \pi V}{(2 \pi \hbar)^{3}c^{3}}\bigg( E^{2} - \frac{1}{2}m^{2}c^{4} + \cdots \bigg)
+\end{align}
+\tag{7}
+$$
+
+In the relativistic regime, the number of electrons is found (using the same integral as in equation 5 but using $\tilde{E}_{rel}$ instead of $\tilde{E}$) by:
+
+$$
+\langle N \rangle = \frac{8 \pi V}{(2 \pi \hbar)^{3}c^{3}}\bigg( \frac{E^{3}_{F}}{3} - \frac{1}{2}m^{2}c^{4}E_{F} + \cdots \bigg)
+\tag{8}
+$$
+
+The kinetic energy of the electrons can be found using
+
+$$
+\begin{align}
+    E_{K} &= \int^{E_{F}}_{0} \tilde{E}_{rel}(E)EdE \\
+    &= \frac{8\pi V}{(2 \pi \hbar)^{3}c^{3}}\bigg( \frac{1}{4}E_{F}^{4} - \frac{1}{4}m^{2}c^{4}E_{F}^{2} + \cdots \bigg)
+\end{align}
+\tag{9}
+$$
+
+\[This next step is a bit dodgy to me but I'm thinking of a good way to think about this \]
+
+Looking at equation 8, we can neglect the second term in the parantheses and 'flip' the equation as done previously in equation 6 to write:
+
+$$
+E_{F} = \bigg[ \frac{3(2 \pi \hbar)^{3}c^{3} \langle N \rangle}{8 \pi V}\bigg]^{1/3}
+\tag{10}
+$$
+
+# Chandrasekhar Limit
+
+The gravitational potential of a spherically symmetric mass is given by:
+
+$$
+E_{G} = -\frac{3}{5}\frac{GM^{2}}{R}
+\tag{11}
+$$
+
+Putting this together with the kinetic energy found in the previous section, we have:
+
+$$
+\begin{align}
+E_{Total} &= E_{G} + E_{K} \\
+&= -\frac{3}{5}\frac{GM^{2}}{R} + \frac{1}{3}\bigg( \frac{9}{4}\bigg)^{4/3} \frac{\pi^{1/3} \langle N \rangle^{4/3}}{R} \hbar c \\
+\end{align}
+\tag{12}
+$$
+
+We can approximate the mass of the star to be $M =\langle N \rangle m_{proton}$. Substituting this in, and tidying up equation 12, 
+
