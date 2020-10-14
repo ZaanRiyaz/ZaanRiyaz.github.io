@@ -27,7 +27,11 @@ $$
 
 Here, $E_{\vec{k}}$ tells us the energy of the state $\vec{k}$, $\mu$ is called the energy potential and $\beta = 1/K_{B}T$ where $T$ is the temperature and $K_{B}$ is Boltzmann's constant.
 
-The behaviour of the Fermi - Dirac distribution is quite easy to think about, at low temperatures. Lucky for us, this is the regime that we're interested in.
+The behaviour of the Fermi - Dirac distribution is quite easy to think about, at low temperatures. Lucky for us, this is the regime that we're interested in. When the temperature is very low, the parameter $\beta$ is large. The Fermi-Dirac distribution turns into a 'step function' as shown below.
+
+{: style="text-align:center"}
+![Animation](/assets/images/anim.gif)
+
 
 $$
     \langle N_{\vec{k}}\rangle \longrightarrow 
@@ -42,7 +46,7 @@ What this means is that the states above an energy of $\mu$ is *unoccupied* (by 
 
 At low energies, the fermions will have low momenta. However, recall that Pauli exclusion prevents the fermions from all crowding the lowest momentum state. If the next lowest energy state is available, it gets occupied by a fermion and so on until we reach an energy of $E_{F}$. This is whats called a *degenerate fermion gas*.
 
-## Energy of a Degenerate Electron Gas
+## Energy of a Non-Relativistic Degenerate Electron Gas
 
 First, we can calculate the total number of electrons using the _non-relativistic_ 'density of states':
 
@@ -67,6 +71,8 @@ $$
     E_{F} = \bigg(\frac{3 \langle N \rangle}{16 \pi \sqrt{2}V}\bigg)^{2/3}\frac{(2 \pi \hbar)^{2}}{m}
 \tag{6}
 $$
+
+## Energy of a Relativistic Degenerate Electron Gas
 
 Since the Fermi energy corresponds to that of the last filled state, it 'sets the scale' for the energy of the degenerate electron gas. As the volume is compressed, this energy will increase until relativistic effects start to come in. The density of states that was used (equation 4) is based on non-relativistic physics, so we replace this with the relativistic density of states which is:
 
@@ -97,14 +103,14 @@ $$
 
 \[This next step is a bit dodgy to me but I'm thinking of a good way to think about this \]
 
-Looking at equation 8, we can neglect the second term in the parantheses and 'flip' the equation as done previously in equation 6 to write:
+Looking at equation 8, we can neglect all the terms except the first term in the parantheses and 'flip' the equation as done previously in equation 6 to write:
 
 $$
 E_{F} = \bigg[ \frac{3(2 \pi \hbar)^{3}c^{3} \langle N \rangle}{8 \pi V}\bigg]^{1/3}
 \tag{10}
 $$
 
-# Chandrasekhar Limit
+# Gravity vs. Pressure
 
 The gravitational potential of a spherically symmetric mass is given by:
 
@@ -118,7 +124,7 @@ Putting this together with the kinetic energy found in the previous section, we 
 $$
 \begin{align}
 E_{Total} &= E_{G} + E_{K} \\
-&= -\frac{3}{5}\frac{GM^{2}}{R} + \frac{1}{3}\bigg( \frac{9}{4}\bigg)^{4/3} \frac{\pi^{1/3} \langle N \rangle^{4/3}}{R} \hbar c \\
+&= \bigg[-\frac{3}{5}GM^{2} + \frac{1}{3}\bigg( \frac{9}{4}\bigg)^{4/3} \pi^{1/3} \langle N \rangle^{4/3}\hbar c \bigg] \frac{1}{R} + \mathcal{O}(R)\\
 \end{align}
 \tag{12}
 $$
