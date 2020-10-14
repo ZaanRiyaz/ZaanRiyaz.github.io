@@ -1,5 +1,5 @@
 ---
-title: "Stability of White Dwarves"
+title: "The Stability of White Dwarves"
 modified:
 categories: Notes
 excerpt: "A brief look at the physics behind how electron degeneracy pressure holds a white dwarf from collapsing into itself any further."
@@ -91,11 +91,26 @@ $$
 \tag{8}
 $$
 
-(Remember that there is $V$ and $\langle N \rangle$ dependence in the $E_{F}$ term) This is the fermion degeneracy pressure. Remembering that the derivation thus far assumes that T = 0, we still have non-zero pressure arising due to the Pauli exclusion principle.
+(Remember that there is $V$ and $\langle N \rangle$ dependence in the $E_{F}$ term) This is the fermion degeneracy pressure. The derivation thus far has assumed that T = 0 and we _still_ have non-zero pressure arising due to the Pauli exclusion principle.
+
+Using the fact that the gravitational potential of a spherically symmetric mass is given by:
+
+$$
+E_{G} = -\frac{3}{5}\frac{GM^{2}}{R}
+$$
+
+we can express the total energy as
+
+$$
+\begin{align}
+E_{Total} &= \langle E \rangle + E_{G} \\
+&= \frac{3}{5}\bigg[ \langle N \rangle^{4/3} \bigg( \frac{3}{16 \pi \sqrt{2}} \bigg)^{2/3}\bigg( \frac{3}{4\pi} \bigg)^{2/3}\frac{1}{R^{2}} - \frac{GM^{2}}{R} \bigg]
+\end{align}
+$$
 
 ## Energy of a Relativistic Degenerate Electron Gas
 
-Since the Fermi energy corresponds to that of the last filled state, it 'sets the scale' for the energy of the degenerate electron gas. As the volume is compressed, this energy will increase until relativistic effects start to come in. The density of states that was used (equation 4) is based on non-relativistic physics, so we replace this with the relativistic density of states which is:
+Since the Fermi energy corresponds to that of the last filled state, it 'sets the scale' for the energy of the degenerate electron gas. As the volume is compressed, this energy will increase until relativistic effects start to come in. The density of states that was used (equation 4) is based on non-relativistic physics, so we replace this with the 'relativistic density of states' which is:
 
 $$
 \begin{align}
