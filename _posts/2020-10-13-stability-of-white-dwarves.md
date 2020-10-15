@@ -148,16 +148,7 @@ E_{F} = \bigg[ \frac{3(2 \pi \hbar)^{3}c^{3} \langle N \rangle}{8 \pi V}\bigg]^{
 \tag{12}
 $$
 
-# Gravity vs. Pressure
-
-The gravitational potential of a spherically symmetric mass is given by:
-
-$$
-E_{G} = -\frac{3}{5}\frac{GM^{2}}{R}
-\tag{13}
-$$
-
-Putting this together with the kinetic energy found in the previous section, we have:
+By substituting this expression in equation 11, we find that the total energy is given by:
 
 $$
 \begin{align}
