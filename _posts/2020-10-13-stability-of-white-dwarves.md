@@ -1,5 +1,5 @@
 ---
-title: "The Stability of White Dwarves"
+title: "The Stability of White Dwarfs"
 modified:
 categories: Notes
 excerpt: "A brief look at the physics behind how electron degeneracy pressure holds a white dwarf from collapsing into itself any further."
@@ -11,7 +11,7 @@ A 'white dwarf' is a stellar remnant left behind when stars with a mass less tha
 
 
 
-# Degenerate Fermion Gas
+## Degenerate Fermion Gas
 We can begin by thinking of the two branches of elementary particles: bosons and fermions. The difference between them is that bosons have integer 'spin' and fermions have half-integer 'spin', where 'spin' is an intrinsic angular momentum quantum number (examples: electrons are fermions with a spin of 1/2. The photon is a boson with a spin of 1). Fermions follow a very important rule called the Pauli exclusion principle which can be stated as follows,
 
 > "No two fermions can exhibit the same quantum numbers in a quantum system".
@@ -91,7 +91,7 @@ $$
 \tag{8}
 $$
 
-(Remember that there is $V$ and $\langle N \rangle$ dependence in the $E_{F}$ term) This is the fermion degeneracy pressure. The derivation thus far has assumed that T = 0 and we _still_ have non-zero pressure arising due to the Pauli exclusion principle.
+(Remember that there is $V$ (Volume) and $\langle N \rangle$ dependence in the $E_{F}$ term) This is the fermion degeneracy pressure. The derivation thus far has assumed that T = 0 and we _still_ have non-zero pressure arising due to the Pauli exclusion principle.
 
 Using the fact that the gravitational potential of a spherically symmetric mass is given by:
 
@@ -99,16 +99,16 @@ $$
 E_{G} = -\frac{3}{5}\frac{GM^{2}}{R}
 $$
 
-we can express the total energy as
+We can approximate the mass of the star to be given by $M = \langle N \rangle m_{p}$ where $m_{p}$ is the mass of a proton. Then, expressing the total energy of the star:
 
 $$
 \begin{align}
 E_{Total} &= \langle E \rangle + E_{G} \\
-&= \frac{3}{5}\bigg[ \langle N \rangle^{4/3} \bigg( \frac{3}{16 \pi \sqrt{2}} \bigg)^{2/3}\bigg( \frac{3}{4\pi} \bigg)^{2/3}\frac{1}{R^{2}} - \frac{GM^{2}}{R} \bigg]
+&= \frac{3}{5}\bigg[ \bigg(\frac{M}{m_{p}}\bigg)^{5/3} \bigg( \frac{9}{64 \pi^{2} \sqrt{2}} \bigg)^{2/3}\bigg( \frac{(2\pi \hbar)^{2}}{m_{e}} \bigg)\frac{1}{R^{2}} - \frac{GM^{2}}{R} \bigg]
 \end{align}
 $$
 
-When the star shrinks -- the radius $R$ decreases. But the total energy will remain 'stable'. This means that the first term in the paranthesis can balance itself against the second term.
+where the mass of the electron is now explicitly shown as $m_{e}$ to avoid any confusion $m_{p}$. When the star shrinks -- the radius $R$ decreases. But the total energy will remain 'stable'. This means that the first term in the paranthesis can balance itself against the second term.
 
 ## Energy of a Relativistic Degenerate Electron Gas
 
@@ -153,9 +153,9 @@ By substituting this expression in equation 11, we find that the total energy is
 $$
 \begin{align}
 E_{Total} &= \langle E \rangle + E_{G} \\
-&= \bigg[-\frac{3}{5}GM^{2} + \frac{1}{3}\bigg( \frac{9}{4}\bigg)^{4/3} \pi^{1/3} \langle N \rangle^{4/3}\hbar c \bigg] \frac{1}{R} + \mathcal{O}(R)\\
+&= \bigg[\frac{1}{3}\bigg( \frac{9}{4}\bigg)^{4/3} \pi^{1/3} \bigg(\frac{M}{m_{p}}\bigg)^{4/3}\hbar c -\frac{3}{5}GM^{2} \bigg] \frac{1}{R} + \mathcal{O}(R)\\
 \end{align}
 \tag{14}
 $$
 
-This is different from the non-relativistic case because both terms in the parantheses scale as $R^{-1}$ (whereas previously, on the gravitational term scaled this way).
+This is different from the non-relativistic case because both terms in the parantheses scale as $R^{-1}$ (whereas previously, only the gravitational term scaled this way). It is important that the expression in the parantheses remain positive. If its negative, it wouldn't be able to balance itself against the linear terms (shown above as $\mathcal{O}(R)$) and the gravitational pull would be too strong -- meaning that the electron degeneracy pressure wouldn't be able to hold the star from collapsing further.

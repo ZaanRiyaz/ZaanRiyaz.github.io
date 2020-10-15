@@ -1,6 +1,6 @@
 ---
 title: "Home"
-layout: splash #home
+layout: home
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
