@@ -43,7 +43,7 @@ $$
 \tag{2}
 $$
 
-What this means is that the states above an energy of $\mu$ is *unoccupied* (by a fermion) although states below this energy are *occupied*. At $T = 0$, we will have $\mu(T) = E_{\vec{k}}$. This constant energy is called the 'Fermi energy' $E_{F}$.
+What this means is that the states above an energy of $\mu$ is *unoccupied* (by a fermion) although states below this energy are *occupied*. At $T = 0 K$, we will have $\mu(T) = E_{\vec{k}}$. This constant energy is called the 'Fermi energy' $E_{F}$.
 
 At low energies, the fermions will have low momenta. However, recall that Pauli exclusion prevents the fermions from all crowding the lowest momentum state. If the next lowest energy state is available, it gets occupied by a fermion and so on until we reach an energy of $E_{F}$. This is whats called a *degenerate fermion gas*.
 
@@ -90,7 +90,7 @@ $$
 \tag{8}
 $$
 
-(Remember that there is $V$ (Volume) and $\langle N \rangle$ dependence in the $E_{F}$ term) This is the fermion degeneracy pressure. The derivation thus far has assumed that T = 0 and we _still_ have non-zero pressure arising due to the Pauli exclusion principle.
+(Remember that there is $V$ (Volume) and $\langle N \rangle$ dependence in the $E_{F}$ term) This is the fermion degeneracy pressure. The derivation thus far has assumed that $T = 0 K$ and we _still_ have non-zero pressure arising due to the Pauli exclusion principle.
 
 Using the fact that the gravitational potential of a spherically symmetric mass is given by:
 
@@ -107,7 +107,13 @@ E_{Total} &= \langle E \rangle + E_{G} \\
 \end{align}
 $$
 
-where the mass of the electron is now explicitly shown as $m_{e}$ to avoid any confusion $m_{p}$. When the star shrinks -- the radius $R$ decreases. But the total energy will remain 'stable'. This means that the first term in the paranthesis can balance itself against the second term.
+where the mass of the electron is now explicitly shown as $m_{e}$ to avoid any confusion $m_{p}$. By minimising the total energy with respect to the radius (calculating $\frac{dE_{Total}}{dR}$ and setting this equal to zero) we would notice that the more massive the white dwarf is, the smaller it is. We would find that
+
+$$
+R = \frac{A}{M^{1/3}}
+$$
+
+where $A$ is a constant. This behaviour is due to the electron degenracy pressure and seems quite counter-intuitive.
 
 ## Energy of a Relativistic Degenerate Electron Gas
 
@@ -147,6 +153,12 @@ E_{F} = \bigg[ \frac{3(2 \pi \hbar)^{3}c^{3} \langle N \rangle}{8 \pi V}\bigg]^{
 \tag{12}
 $$
 
+Using the fact that the gravitational potential of a spherically symmetric mass is given by:
+
+$$
+E_{G} = -\frac{3}{5}\frac{GM^{2}}{R}
+$$
+
 By substituting this expression in equation 11, we find that the total energy is given by:
 
 $$
@@ -157,9 +169,4 @@ E_{Total} &= \langle E \rangle + E_{G} \\
 \tag{14}
 $$
 
-This is different from the non-relativistic case in two ways:
-
-1. Both terms in the parantheses scale as $R^{-1}$ (whereas previously, only the gravitational term scaled this way). 
-2. We have 'extra terms' that are linear in $R$ (shown as $\mathcal{O}(R)$). 
-
-This is why it is important that the expression in the parantheses remains positive. If its negative, it wouldn't be able to balance itself against the linear terms and the gravitational pull would be too strong -- meaning that the electron degeneracy pressure wouldn't be able to hold the star from collapsing further.
+This is different from the non-relativistic case as both terms in the parantheses scale as $R^{-1}$ (whereas previously, only the gravitational term scaled this way. This is why it is important that the expression in the parantheses remains positive. If its negative, it wouldn't be able to balance itself against the linear terms and the gravitational pull would be too strong -- meaning that the electron degeneracy pressure wouldn't be able to hold the star from collapsing further.
