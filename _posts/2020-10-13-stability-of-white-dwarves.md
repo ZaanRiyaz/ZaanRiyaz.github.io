@@ -1,5 +1,5 @@
 ---
-title: "The Stability of White Dwarfs"
+title: "A Look At The Stability of White Dwarfs"
 modified:
 categories: Notes
 excerpt: "A brief look at the physics behind how electron degeneracy pressure holds a white dwarf from collapsing into itself any further."
@@ -8,7 +8,6 @@ date: 2020-10-13
 toc: true
 ---
 A 'white dwarf' is a stellar remnant left behind when stars with a mass less than  $1.44 M_{\odot}$ reach the end of their lifecycles. Their stability from collapsing in on theirselves due to the force of gravity depends on the pressure that is exerted outwards. This is called 'electron degeneracy pressure', which has it's origins in quantum mechanics.
-
 
 
 ## Degenerate Fermion Gas
@@ -112,7 +111,7 @@ where the mass of the electron is now explicitly shown as $m_{e}$ to avoid any c
 
 ## Energy of a Relativistic Degenerate Electron Gas
 
-Since the Fermi energy corresponds to that of the last filled state, it 'sets the scale' for the energy of the degenerate electron gas. As the volume is compressed, this energy will increase until relativistic effects start to come in. The density of states that was used (equation 4) is based on non-relativistic physics, so we replace this with the 'relativistic density of states' which is:
+Since the Fermi energy corresponds to that of the last filled state, it 'sets the scale' for the energy of the degenerate electron gas. As the volume is compressed (when the star compactifies), this energy will increase until our non-relativistic equations break down. The density of states that was used (equation 4) is based on non-relativistic physics, so we replace this with the 'relativistic density of states' which is:
 
 $$
 \begin{align}
@@ -158,4 +157,9 @@ E_{Total} &= \langle E \rangle + E_{G} \\
 \tag{14}
 $$
 
-This is different from the non-relativistic case because both terms in the parantheses scale as $R^{-1}$ (whereas previously, only the gravitational term scaled this way). It is important that the expression in the parantheses remain positive. If its negative, it wouldn't be able to balance itself against the linear terms (shown above as $\mathcal{O}(R)$) and the gravitational pull would be too strong -- meaning that the electron degeneracy pressure wouldn't be able to hold the star from collapsing further.
+This is different from the non-relativistic case in two ways:
+
+1. Both terms in the parantheses scale as $R^{-1}$ (whereas previously, only the gravitational term scaled this way). 
+2. We have 'extra terms' that are linear in $R$ (shown as $\mathcal{O}(R)$). 
+
+This is why it is important that the expression in the parantheses remains positive. If its negative, it wouldn't be able to balance itself against the linear terms and the gravitational pull would be too strong -- meaning that the electron degeneracy pressure wouldn't be able to hold the star from collapsing further.
