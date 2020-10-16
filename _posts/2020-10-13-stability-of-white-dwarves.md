@@ -10,6 +10,10 @@ header:
     image: /assets/images/siriusb.png
     caption: "Sirius B, simulated in [**Universe Sandbox**](https://store.steampowered.com/app/230290/)"
 ---
+```zaan [10/16]: need to check if all equation references are correct. Also need to add references and cite things. Also need some more pictures.```
+```To make clearer: 1.a quick definition for what the density of states really is,```
+
+
 A 'white dwarf' is a stellar remnant left behind when stars with a mass less than  $1.44 M_{\odot}$ (the Chandrasekhar limit) reach the end of their lifecycles. Their stability from collapsing in on theirselves due to the force of gravity depends on the pressure that is exerted outwards. This is called 'electron degeneracy pressure', which has it's origins in quantum mechanics.
 
 
@@ -29,6 +33,7 @@ $$
 \tag{1} 
 $$
 
+
 Here, $E_{\vec{k}}$ tells us the energy of the state $\vec{k}$, $\mu$ is called the energy potential and $\beta = 1/K_{B}T$ where $T$ is the temperature and $K_{B}$ is Boltzmann's constant.
 
 The behaviour of the Fermi - Dirac distribution is quite easy to think about, at low temperatures. Lucky for us, this is the regime that we're interested in. When the temperature is very low, the parameter $\beta$ is large. The Fermi-Dirac distribution turns into a 'step function' as shown below.
@@ -38,6 +43,7 @@ The behaviour of the Fermi - Dirac distribution is quite easy to think about, at
 
 
 $$
+\label{eq:step}
     \langle N_{\vec{k}}\rangle \longrightarrow 
     \begin{cases}
         1 \quad ; \quad E_{\vec{k}} \quad < \quad \mu\\
@@ -55,28 +61,32 @@ At low energies, the fermions will have low momenta. However, recall that Pauli 
 We can model a white dwarf as a a degenerate gas composed of electrons. Calculating the total number of electrons using the _non-relativistic_ 'density of states',
 
 $$
+\label{eq:nonrel}
     \tilde{E}(E) = \frac{8\pi\sqrt{2}V}{(2\pi\hbar)^{3}}m^{3/2}E^{1/2}
 \tag{3}
 $$
 
 The number of fermions $\langle N \rangle$ is then:
 
-$$  \begin{align}
+$$
+\begin{align}
     \langle N \rangle &= \int_{0}^{\infty} \tilde{E}(E) \langle N_{\vec{k}} \rangle dE \\
     &=  \int_{0}^{E_{F}} \tilde{E}(E) dE \\
     &= \frac{16 \pi \sqrt{2}V}{3(2\pi \hbar)^{3}}m^{3/2}E_{F}^{3/2}
     \end{align}
 \tag{4}
+\label{eq:fermion}
 $$
 
-where in the second step we refer to equation $(2)$. We also integrate up to $E_{F}$ instead of $\infty$ because there are no particles in states with energy greater than the Fermi energy. This expression can be 'flipped' to give:
+
+where in the second step we refer to equation \eqref{eq:step}. We also integrate up to $E_{F}$ instead of $\infty$ because there are no particles in states with energy greater than the Fermi energy. This expression can be 'flipped' to give:
 
 $$
     E_{F} = \bigg(\frac{3 \langle N \rangle}{16 \pi \sqrt{2}V}\bigg)^{2/3}\frac{(2 \pi \hbar)^{2}}{m}
 \tag{5}
 $$
 
-The kinetic energy can be calculated using the density of states given in equation 4:
+The kinetic energy can be calculated using the density of states given in equation $\eqref{eq:fermion}$ :
 
 $$  \begin{align}
     \langle E \rangle &= \int_{0}^{\infty} \tilde{E}(E)E dE \\
@@ -84,6 +94,7 @@ $$  \begin{align}
     &= \frac{3}{5}\langle N \rangle E_{F}
     \end{align}
 \tag{6}
+\label{eq:nonrelEnergy}
 $$
 
 Then, using a general expression that holds for both bosons and fermions $P = \frac{2}{3V}\langle E \rangle$, we can see that the pressure exerted by the degenerate fermion gas is
@@ -123,7 +134,7 @@ where $A$ is a constant. This behaviour is due to the electron degeneracy pressu
 
 ## Energy of a Relativistic Degenerate Electron Gas
 
-Since the Fermi energy corresponds to that of the last filled state, it 'sets the scale' for the energy of the degenerate electron gas. As the volume is compressed (when the star compactifies), this energy will increase until our non-relativistic equations break down. The density of states that was used (equation 4) is based on non-relativistic physics, so we replace this with the 'relativistic density of states' which is:
+Since the Fermi energy corresponds to that of the last filled state, it 'sets the scale' for the energy of the degenerate electron gas. As the volume is compressed (when the star compactifies), this energy will increase until our non-relativistic equations break down. The density of states that was used (equation \eqref{eq:nonrel}) is based on non-relativistic physics, so we replace this with the 'relativistic density of states' which is:
 
 $$
 \begin{align}
@@ -133,11 +144,12 @@ $$
 \tag{11}
 $$
 
-In the relativistic regime, the number of electrons is found (using the same integral as in equation 5 but using $\tilde{E}_{rel}$ instead of $\tilde{E}$):
+In the relativistic regime, the number of electrons is found (using the same integral as in equation \eqref{eq:nonrelEnergy} but using $\tilde{E}_{rel}$ instead of $\tilde{E}$):
 
 $$
 \langle N \rangle = \frac{8 \pi V}{(2 \pi \hbar)^{3}c^{3}}\bigg( \frac{E^{3}_{F}}{3} - \frac{1}{2}m^{2}c^{4}E_{F} + \cdots \bigg)
 \tag{12}
+\label{eq:newfermion}
 $$
 
 The kinetic energy of the electrons can be found using
@@ -152,7 +164,7 @@ $$
 
 \[This next step is a bit dodgy to me but I'm thinking of a good way to think about this \]
 
-Looking at equation 12, we can neglect all the terms except the first term in the parantheses and 'flip' the equation as done previously in equation 5 to write:
+Looking at equation \eqref{eq:newfermion}, we can neglect all the terms except the first term in the parantheses and 'flip' the equation as done previously in equation 5 to write:
 
 $$
 E_{F} = \bigg[ \frac{3(2 \pi \hbar)^{3}c^{3} \langle N \rangle}{8 \pi V}\bigg]^{1/3}
