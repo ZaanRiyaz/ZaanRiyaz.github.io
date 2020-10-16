@@ -6,19 +6,21 @@ excerpt: "A brief look at the physics behind how electron degeneracy pressure ho
 tags: []
 date: 2020-10-13
 toc: true
+classes: wide
 header:
     image: /assets/images/siriusb.png
     caption: "Sirius B, simulated in [**Universe Sandbox**](https://store.steampowered.com/app/230290/)"
 ---
 ```zaan [10/16]: need to check if all equation references are correct. Also need to add references and cite things. Also need some more pictures.```
+
 ```To make clearer: 1.a quick definition for what the density of states really is,```
 
-
+# Introduction
 A 'white dwarf' is a stellar remnant left behind when stars with a mass less than  $1.44 M_{\odot}$ (the Chandrasekhar limit) reach the end of their lifecycles. Their stability from collapsing in on theirselves due to the force of gravity depends on the pressure that is exerted outwards. This is called 'electron degeneracy pressure', which has it's origins in quantum mechanics.
 
 
-## Degenerate Fermion Gas
-We can begin by thinking of the two branches of elementary particles: bosons and fermions. The difference between them is that bosons have integer 'spin' and fermions have half-integer 'spin', where 'spin' is an intrinsic angular momentum quantum number (examples: electrons are fermions with a spin of 1/2. The photon is a boson with a spin of 1). Fermions follow a very important rule called the Pauli exclusion principle which can be stated as follows,
+# Degenerate Fermion Gas
+We can begin by thinking of the two branches of elementary particles: bosons and fermions. The difference between them is that bosons have integer 'spin' and fermions have half-integer 'spin', where 'spin' is an intrinsic angular momentum quantum number (examples: electrons are fermions with a spin of 1/2. The photon is a boson with a spin of 1). Fermions follow a very important rule called the *'Pauli exclusion principle'* which can be stated as follows,
 
 > "No two fermions can exhibit the same quantum numbers in a quantum system".
 
@@ -184,9 +186,10 @@ $$
 Following what was done for the non-relativistic case, we can minimise the total energy with respect to R (by calculating $\frac{dE_{Total}}{dR}$ and setting it equal to $0$). We would find that any reference to the radius would drop out of the equation. Instead, if we calculate the second derivative and ensure it is greater than $0$ (because we're looking for a minimum), we would find a limit on the mass of the star that ensures that the equilibrium between the gravity and electron degeneracy pressure is _stable_:
 
 $$
-\frac{d^{2}E_{Total}}{dR^{2}} > 0 \implies M < \bigg( \frac{\hbar c}{G} \bigg)^{3/2}\frac{1}{m_{p}^{2}} \simeq 1.89 M_{\odot}
+\frac{d^{2}E_{Total}}{dR^{2}} > 0 \implies M < B \bigg( \frac{\hbar c}{G} \bigg)^{3/2}\frac{1}{m_{p}^{2}} \simeq 1.89 M_{\odot}
 \tag{16}
 $$
 
-This is the minimum mass that would 
+where $B$ is a constant. This is the minimum mass that a star should have if it is to be supported by electron degeneracy pressure. This means that we wouldn't find any white dwarfs more masssive than this.
 
+# References
