@@ -52,8 +52,8 @@ At low energies, the fermions will have low momenta. However, recall that Pauli 
 We can model a white dwarf as a a degenerate gas composed of electrons. Calculating the total number of electrons using the _non-relativistic_ 'density of states',
 
 $$
-    \tilde{E}(E) = 2 \cdot \frac{4\pi\sqrt{2}V}{(2\pi\hbar)^{3}}m^{3/2}E^{1/2}
-\tag{4}
+    \tilde{E}(E) = \frac{8\pi\sqrt{2}V}{(2\pi\hbar)^{3}}m^{3/2}E^{1/2}
+\tag{3}
 $$
 
 The number of fermions $\langle N \rangle$ is then:
@@ -63,14 +63,14 @@ $$  \begin{align}
     &=  \int_{0}^{E_{F}} \tilde{E}(E) dE \\
     &= \frac{16 \pi \sqrt{2}V}{3(2\pi \hbar)^{3}}m^{3/2}E_{F}^{3/2}
     \end{align}
-\tag{5}
+\tag{4}
 $$
 
 where in the second step we refer to equation $(2)$. We also integrate up to $E_{F}$ instead of $\infty$ because there are no particles in states with energy greater than the Fermi energy. This expression can be 'flipped' to give:
 
 $$
     E_{F} = \bigg(\frac{3 \langle N \rangle}{16 \pi \sqrt{2}V}\bigg)^{2/3}\frac{(2 \pi \hbar)^{2}}{m}
-\tag{6}
+\tag{5}
 $$
 
 The kinetic energy can be calculated using the density of states given in equation 4:
@@ -80,14 +80,14 @@ $$  \begin{align}
     &=  \int_{0}^{E_{F}} \tilde{E}(E)E dE \\
     &= \frac{3}{5}\langle N \rangle E_{F}
     \end{align}
-\tag{7}
+\tag{6}
 $$
 
 Then, using a general expression that holds for both bosons and fermions $P = \frac{2}{3V}\langle E \rangle$, we can see that the pressure exerted by the degenerate fermion gas is
 
 $$
     P = \frac{32 \pi \sqrt{2}}{15(2 \pi \hbar)^{2}}m^{3/2}E_{F}^{5/2}
-\tag{8}
+\tag{7}
 $$
 
 (Remember that there is $V$ (Volume) and $\langle N \rangle$ dependence in the $E_{F}$ term) This is the fermion degeneracy pressure. The derivation thus far has assumed that $T = 0 K$ and we _still_ have non-zero pressure arising due to the Pauli exclusion principle.
@@ -96,6 +96,7 @@ Using the fact that the gravitational potential of a spherically symmetric mass 
 
 $$
 E_{G} = -\frac{3}{5}\frac{GM^{2}}{R}
+\tag{8}
 $$
 
 We can approximate the mass of the star to be given by $M = \langle N \rangle m_{p}$ where $m_{p}$ is the mass of a proton. Then, expressing the total energy of the star:
@@ -105,15 +106,17 @@ $$
 E_{Total} &= \langle E \rangle + E_{G} \\
 &= \frac{3}{5}\bigg[ \bigg(\frac{M}{m_{p}}\bigg)^{5/3} \bigg( \frac{9}{64 \pi^{2} \sqrt{2}} \bigg)^{2/3}\bigg( \frac{(2\pi \hbar)^{2}}{m_{e}} \bigg)\frac{1}{R^{2}} - \frac{GM^{2}}{R} \bigg]
 \end{align}
+\tag{9}
 $$
 
-where the mass of the electron is now explicitly shown as $m_{e}$ to avoid any confusion $m_{p}$. By minimising the total energy with respect to the radius (calculating $\frac{dE_{Total}}{dR}$ and setting this equal to zero) we would notice that the more massive the white dwarf is, the smaller it is. We would find that
+where the mass of the electron is now explicitly shown as $m_{e}$ to avoid any confusion $m_{p}$. By minimising the total energy with respect to the radius (calculating $\frac{dE_{Total}}{dR}$ and setting this equal to zero) we would notice that more massive white dwarves would be smaller. We would find that
 
 $$
 R = \frac{A}{M^{1/3}}
+\tag{10}
 $$
 
-where $A$ is a constant. This behaviour is due to the electron degenracy pressure and seems quite counter-intuitive.
+where $A$ is a constant. This behaviour is due to the electron degeneracy pressure and seems quite counter-intuitive.
 
 ## Energy of a Relativistic Degenerate Electron Gas
 
@@ -124,14 +127,14 @@ $$
     \tilde{E}_{rel} &= \frac{8 \pi V}{(2 \pi \hbar)^{3}c^{3}}E^{2}\sqrt{1 - \frac{m^{2}c^{4}}{E^{2}}} \\
     &= \frac{8 \pi V}{(2 \pi \hbar)^{3}c^{3}}\bigg( E^{2} - \frac{1}{2}m^{2}c^{4} + \cdots \bigg)
 \end{align}
-\tag{9}
+\tag{11}
 $$
 
 In the relativistic regime, the number of electrons is found (using the same integral as in equation 5 but using $\tilde{E}_{rel}$ instead of $\tilde{E}$) by:
 
 $$
 \langle N \rangle = \frac{8 \pi V}{(2 \pi \hbar)^{3}c^{3}}\bigg( \frac{E^{3}_{F}}{3} - \frac{1}{2}m^{2}c^{4}E_{F} + \cdots \bigg)
-\tag{10}
+\tag{12}
 $$
 
 The kinetic energy of the electrons can be found using
@@ -141,7 +144,7 @@ $$
     \langle E \rangle &= \int^{E_{F}}_{0} \tilde{E}_{rel}(E)EdE \\
     &= \frac{8\pi V}{(2 \pi \hbar)^{3}c^{3}}\bigg( \frac{1}{4}E_{F}^{4} - \frac{1}{4}m^{2}c^{4}E_{F}^{2} + \cdots \bigg)
 \end{align}
-\tag{11}
+\tag{13}
 $$
 
 \[This next step is a bit dodgy to me but I'm thinking of a good way to think about this \]
@@ -150,23 +153,30 @@ Looking at equation 8, we can neglect all the terms except the first term in the
 
 $$
 E_{F} = \bigg[ \frac{3(2 \pi \hbar)^{3}c^{3} \langle N \rangle}{8 \pi V}\bigg]^{1/3}
-\tag{12}
+\tag{14}
 $$
 
 Using the fact that the gravitational potential of a spherically symmetric mass is given by:
 
 $$
 E_{G} = -\frac{3}{5}\frac{GM^{2}}{R}
+\tag{15}
 $$
 
-By substituting this expression in equation 11, we find that the total energy is given by:
+And using that the volume of a sphere is given by $V = \frac{4\pi R^{3}}{3}$, we find that the total energy is given by:
 
 $$
 \begin{align}
 E_{Total} &= \langle E \rangle + E_{G} \\
 &= \bigg[\frac{1}{3}\bigg( \frac{9}{4}\bigg)^{4/3} \pi^{1/3} \bigg(\frac{M}{m_{p}}\bigg)^{4/3}\hbar c -\frac{3}{5}GM^{2} \bigg] \frac{1}{R} + \mathcal{O}(R)\\
 \end{align}
-\tag{14}
+\tag{16}
 $$
 
-This is different from the non-relativistic case as both terms in the parantheses scale as $R^{-1}$ (whereas previously, only the gravitational term scaled this way. This is why it is important that the expression in the parantheses remains positive. If its negative, it wouldn't be able to balance itself against the linear terms and the gravitational pull would be too strong -- meaning that the electron degeneracy pressure wouldn't be able to hold the star from collapsing further.
+Following what was done for the non-relativistic case, we can minimise the total energy with respect to R (by calculating $\frac{dE_{Total}}{dR}$ and setting it equal to $0$). We would find that any reference to the radius would drop out of the equation. Instead, if we calculate the second derivative and ensure it is greater than $0$ (because we're looking for a minimum), we would find a limit on the mass of the star that ensures that the equilibrium between the gravity and electron degeneracy pressure is _stable_:
+
+$$
+\frac{d^{2}E_{Total}}{dR^{2}} > 0 \implies M > \bigg( \frac{\hbar c}{G} \bigg)^{3/2}\frac{1}{m_{p}^{2}} \simeq 1.89 M_{\odot}
+\tag{17}
+$$
+
