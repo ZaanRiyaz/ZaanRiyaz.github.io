@@ -8,7 +8,7 @@ date: 2020-10-13
 toc: true
 header:
     image: /assets/images/siriusb.png
-    caption: "Simulated in: [**Universe Sandbox**](https://store.steampowered.com/app/230290/)"
+    caption: "Serius B, simulated in [**Universe Sandbox**](https://store.steampowered.com/app/230290/)"
 ---
 A 'white dwarf' is a stellar remnant left behind when stars with a mass less than  $1.44 M_{\odot}$ (the Chandrasekhar limit) reach the end of their lifecycles. Their stability from collapsing in on theirselves due to the force of gravity depends on the pressure that is exerted outwards. This is called 'electron degeneracy pressure', which has it's origins in quantum mechanics.
 
@@ -102,7 +102,7 @@ E_{G} = -\frac{3}{5}\frac{GM^{2}}{R}
 \tag{8}
 $$
 
-We can approximate the mass of the star to be given by $M = \langle N \rangle m_{p}$ where $m_{p}$ is the mass of a proton. Then, expressing the total energy of the star:
+We can approximate the mass of the star to be given by $M = \langle N \rangle m_{p}$ where $m_{p}$ is the mass of a proton. We can also use the fact that for a sphere, the volume is given by $V = \frac{4 \pi R^{3}{3}}$. Then, expressing the total energy of the star:
 
 $$
 \begin{align}
@@ -112,7 +112,7 @@ E_{Total} &= \langle E \rangle + E_{G} \\
 \tag{9}
 $$
 
-where the mass of the electron is now explicitly shown as $m_{e}$ to avoid any confusion $m_{p}$. By minimising the total energy with respect to the radius (calculating $\frac{dE_{Total}}{dR}$ and setting this equal to zero) we would notice that more massive white dwarves would be smaller. We would find that
+where the mass of the electron is now explicitly shown as $m_{e}$ to avoid any confusion $m_{p}$. By minimising the total energy with respect to the radius (calculating $\frac{dE_{Total}}{dR}$ and setting this equal to zero) we would notice that more massive white dwarves would be smaller. More specifically, we would find the following relation between the radius and the mass:
 
 $$
 R = \frac{A}{M^{1/3}}
@@ -152,34 +152,29 @@ $$
 
 \[This next step is a bit dodgy to me but I'm thinking of a good way to think about this \]
 
-Looking at equation 8, we can neglect all the terms except the first term in the parantheses and 'flip' the equation as done previously in equation 6 to write:
+Looking at equation 12, we can neglect all the terms except the first term in the parantheses and 'flip' the equation as done previously in equation 5 to write:
 
 $$
 E_{F} = \bigg[ \frac{3(2 \pi \hbar)^{3}c^{3} \langle N \rangle}{8 \pi V}\bigg]^{1/3}
 \tag{14}
 $$
 
-Using the fact that the gravitational potential of a spherically symmetric mass is given by:
-
-$$
-E_{G} = -\frac{3}{5}\frac{GM^{2}}{R},
-\tag{15}
-$$
-
-And using that the volume of a sphere is given by $V = \frac{4\pi R^{3}}{3}$, we find that the total energy is given by:
+As in the previous case, we can find the total energy:
 
 $$
 \begin{align}
 E_{Total} &= \langle E \rangle + E_{G} \\
-&= \bigg[\frac{1}{3}\bigg( \frac{9}{4}\bigg)^{4/3} \pi^{1/3} \bigg(\frac{M}{m_{p}}\bigg)^{4/3}\hbar c -\frac{3}{5}GM^{2} \bigg] \frac{1}{R} + \mathcal{O}(R)\\
+&= \bigg[\frac{16}{3}\bigg( \frac{9}{64}\bigg)^{4/3} \pi^{1/3} \bigg(\frac{M}{m_{p}}\bigg)^{4/3}\hbar c -\frac{3}{5}GM^{2} \bigg] \frac{1}{R} + \mathcal{O}(R)\\
 \end{align}
-\tag{16}
+\tag{15}
 $$
 
 Following what was done for the non-relativistic case, we can minimise the total energy with respect to R (by calculating $\frac{dE_{Total}}{dR}$ and setting it equal to $0$). We would find that any reference to the radius would drop out of the equation. Instead, if we calculate the second derivative and ensure it is greater than $0$ (because we're looking for a minimum), we would find a limit on the mass of the star that ensures that the equilibrium between the gravity and electron degeneracy pressure is _stable_:
 
 $$
 \frac{d^{2}E_{Total}}{dR^{2}} > 0 \implies M < \bigg( \frac{\hbar c}{G} \bigg)^{3/2}\frac{1}{m_{p}^{2}} \simeq 1.89 M_{\odot}
-\tag{17}
+\tag{16}
 $$
+
+This is the minimum mass that would 
 
