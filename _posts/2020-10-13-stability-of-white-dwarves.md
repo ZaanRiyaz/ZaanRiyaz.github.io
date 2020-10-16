@@ -86,6 +86,7 @@ where in the second step we refer to equation \eqref{eq:step}. We also integrate
 $$
     E_{F} = \bigg(\frac{3 \langle N \rangle}{16 \pi \sqrt{2}V}\bigg)^{2/3}\frac{(2 \pi \hbar)^{2}}{m}
 \tag{5}
+\label{eq:fermiFlipped}
 $$
 
 The kinetic energy can be calculated using the density of states given in equation $\eqref{eq:fermion}$ :
@@ -166,7 +167,7 @@ $$
 
 \[This next step is a bit dodgy to me but I'm thinking of a good way to think about this \]
 
-Looking at equation \eqref{eq:newfermion}, we can neglect all the terms except the first term in the parantheses and 'flip' the equation as done previously in equation 5 to write:
+Looking at equation \eqref{eq:newfermion}, we can neglect all the terms except the first term in the parantheses and 'flip' the equation as done previously in equation \eqref{eq:fermiFlipped} to write:
 
 $$
 E_{F} = \bigg[ \frac{3(2 \pi \hbar)^{3}c^{3} \langle N \rangle}{8 \pi V}\bigg]^{1/3}
