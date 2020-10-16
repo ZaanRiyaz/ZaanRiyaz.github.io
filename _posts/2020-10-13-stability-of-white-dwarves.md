@@ -102,7 +102,7 @@ E_{G} = -\frac{3}{5}\frac{GM^{2}}{R}
 \tag{8}
 $$
 
-We can approximate the mass of the star to be given by $M = \langle N \rangle m_{p}$ where $m_{p}$ is the mass of a proton. We can also use the fact that for a sphere, the volume is given by $V = \frac{4 \pi R^{3}{3}$. Then, expressing the total energy of the star:
+We can approximate the mass of the star to be given by $M = \langle N \rangle m_{p}$ where $m_{p}$ is the mass of a proton. We can also use the fact that for a sphere, the volume is given by $V = \frac{4 \pi R^{3}}{3}$. Then, expressing the total energy of the star:
 
 $$
 \begin{align}
