@@ -192,4 +192,6 @@ $$
 
 where $B$ is a constant. This is the minimum mass that a star should have if it is to be supported by electron degeneracy pressure. This means that we wouldn't find any white dwarfs more masssive than this.
 
+Subramanyan Chandrasekhar first calculated this limit (more accurately, using another approach) to be $M_{Chandra} = 1.44M_{\odot}$. In our approach, we have used many assumptions (like taking M = \langle N \rangle m_{p}), whereas we should really take into account the 'equation of state'.
+
 # References
