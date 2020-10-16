@@ -8,6 +8,7 @@ date: 2020-10-13
 toc: true
 header:
     image: /assets/images/siriusb.png
+    caption: "Simulated in: [**Universe Sandbox**](https://store.steampowered.com/app/230290/)"
 ---
 A 'white dwarf' is a stellar remnant left behind when stars with a mass less than  $1.44 M_{\odot}$ (the Chandrasekhar limit) reach the end of their lifecycles. Their stability from collapsing in on theirselves due to the force of gravity depends on the pressure that is exerted outwards. This is called 'electron degeneracy pressure', which has it's origins in quantum mechanics.
 
