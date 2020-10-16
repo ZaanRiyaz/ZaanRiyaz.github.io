@@ -7,7 +7,7 @@ tags: []
 date: 2020-10-13
 toc: true
 ---
-A 'white dwarf' is a stellar remnant left behind when stars with a mass less than  $1.44 M_{\odot}$ reach the end of their lifecycles. Their stability from collapsing in on theirselves due to the force of gravity depends on the pressure that is exerted outwards. This is called 'electron degeneracy pressure', which has it's origins in quantum mechanics.
+A 'white dwarf' is a stellar remnant left behind when stars with a mass less than  $1.44 M_{\odot}$ (the Chandrasekhar limit) reach the end of their lifecycles. Their stability from collapsing in on theirselves due to the force of gravity depends on the pressure that is exerted outwards. This is called 'electron degeneracy pressure', which has it's origins in quantum mechanics.
 
 
 ## Degenerate Fermion Gas
@@ -130,7 +130,7 @@ $$
 \tag{11}
 $$
 
-In the relativistic regime, the number of electrons is found (using the same integral as in equation 5 but using $\tilde{E}_{rel}$ instead of $\tilde{E}$) by:
+In the relativistic regime, the number of electrons is found (using the same integral as in equation 5 but using $\tilde{E}_{rel}$ instead of $\tilde{E}$):
 
 $$
 \langle N \rangle = \frac{8 \pi V}{(2 \pi \hbar)^{3}c^{3}}\bigg( \frac{E^{3}_{F}}{3} - \frac{1}{2}m^{2}c^{4}E_{F} + \cdots \bigg)
@@ -159,7 +159,7 @@ $$
 Using the fact that the gravitational potential of a spherically symmetric mass is given by:
 
 $$
-E_{G} = -\frac{3}{5}\frac{GM^{2}}{R}
+E_{G} = -\frac{3}{5}\frac{GM^{2}}{R},
 \tag{15}
 $$
 
@@ -176,7 +176,7 @@ $$
 Following what was done for the non-relativistic case, we can minimise the total energy with respect to R (by calculating $\frac{dE_{Total}}{dR}$ and setting it equal to $0$). We would find that any reference to the radius would drop out of the equation. Instead, if we calculate the second derivative and ensure it is greater than $0$ (because we're looking for a minimum), we would find a limit on the mass of the star that ensures that the equilibrium between the gravity and electron degeneracy pressure is _stable_:
 
 $$
-\frac{d^{2}E_{Total}}{dR^{2}} > 0 \implies M > \bigg( \frac{\hbar c}{G} \bigg)^{3/2}\frac{1}{m_{p}^{2}} \simeq 1.89 M_{\odot}
+\frac{d^{2}E_{Total}}{dR^{2}} > 0 \implies M < \bigg( \frac{\hbar c}{G} \bigg)^{3/2}\frac{1}{m_{p}^{2}} \simeq 1.89 M_{\odot}
 \tag{17}
 $$
 
