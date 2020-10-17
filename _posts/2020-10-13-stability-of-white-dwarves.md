@@ -6,19 +6,24 @@ excerpt: "A brief look at the physics behind how electron degeneracy pressure ho
 tags: []
 date: 2020-10-13
 toc: true
-classes: wide
+classes: single
 header:
-    image: /assets/images/siriusb.png
+    image: /assets/images/posts/siriusb.png
     caption: "Sirius B, simulated in [**Universe Sandbox**](https://store.steampowered.com/app/230290/)"
 ---
 ```zaan [10/16]: need to check if all equation references are correct. Also need to add references and cite things. Also need some more pictures.```
-
-```To make clearer: 1.a quick definition for what the density of states really is,```
 
 (This calculation uses the tools of statistical mechanics. I would recommend [Dr. Eugene Lim's (KCL) notes](https://nms.kcl.ac.uk/eugene.lim/teach/statmech/sm.html) as I studied the subject through them but they're currently unavailable. [This paper](https://arxiv.org/pdf/1708.02730.pdf) goes over the calculation in quite a similar way)
 
 # Introduction
 A 'white dwarf' is a stellar remnant left behind when stars with a mass less than  $1.44 M_{\odot}$ (the Chandrasekhar limit) reach the end of their lifecycles. Their stability from collapsing in on theirselves due to the force of gravity depends on the pressure that is exerted outwards. This is called 'electron degeneracy pressure', which has it's origins in quantum mechanics [^1].
+
+
+{: style="text-align:center"}
+![Image](/assets/images/posts/Sirius_A_and_B_Hubble_photo.editted.png)
+<figcaption><em>Figure 1: Sirius A (larger) and Sirius B (smaller). Sirius B is a white dwarf. [NASA - Public Domain]</em></figcaption>
+
+
 
 # Degenerate Fermion Gas
 We can begin by thinking of the two branches of elementary particles: bosons and fermions. The difference between them is that bosons have integer 'spin' and fermions have half-integer 'spin', where 'spin' is an intrinsic angular momentum quantum number (examples: electrons are fermions with a spin of 1/2. The photon is a boson with a spin of 1). Fermions follow a very important rule called the *'Pauli exclusion principle'* which can be stated as follows,
@@ -43,6 +48,7 @@ The behaviour of the Fermi - Dirac distribution is quite easy to think about, at
 
 {: style="text-align:center"}
 ![Animation](/assets/images/anim.gif)
+<figcaption><em>Figure 2: An animation showing how the Fermi - Dirac distribution changes when $\beta$ is increased (when the temperature $T \rightarrow 0$ )</em></figcaption>
 
 
 $$
@@ -61,7 +67,7 @@ At low energies, the fermions will have low momenta. However, recall that Pauli 
 
 ## Energy of a Non-Relativistic Degenerate Electron Gas
 
-We can model a white dwarf as a degenerate gas composed of electrons. Calculating the total number of electrons using the _non-relativistic_ 'density of states',
+We can model a white dwarf as a degenerate gas composed of electrons. Calculating the total number of electrons using the _non-relativistic_ '[density of states](https://en.wikipedia.org/wiki/Density_of_states)',
 
 $$
 \label{eq:nonrel}
@@ -194,7 +200,7 @@ $$
 
 where $B$ is a constant. This is the minimum mass that a star should have if it is to be supported by electron degeneracy pressure. This means that we wouldn't find any white dwarfs more masssive than this.
 
-[Subramanyan Chandrasekhar](https://en.wikipedia.org/wiki/Subrahmanyan_Chandrasekhar) first calculated this limit (more accurately, using another approach) to be $M_{Chandra} = 1.44M_{\odot}$. In our approach, we have used many assumptions (like taking $M = \langle N \rangle m_{p}$) whereas we should really take into account the 'equation of state'.
+[Subramanyan Chandrasekhar](https://en.wikipedia.org/wiki/Subrahmanyan_Chandrasekhar) first calculated this limit (more accurately, using another approach) to be $M_{Chandra} = 1.44M_{\odot}$. In our approach, we have used many assumptions (like taking $M = \langle N \rangle m_{p}$) whereas we should really take into account the 'equation of state' -- for accuracy.
 
 
 # References
