@@ -6,7 +6,7 @@ excerpt: "A brief look at the physics behind how electron degeneracy pressure ho
 tags: []
 date: 2020-10-13
 toc: true
-classes: single
+classes: wide
 header:
     image: /assets/images/posts/siriusb.png
     caption: "Sirius B, simulated in [**Universe Sandbox**](https://store.steampowered.com/app/230290/)"
