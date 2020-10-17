@@ -15,11 +15,10 @@ header:
 
 ```To make clearer: 1.a quick definition for what the density of states really is,```
 
-(This calculation uses the tools of statistical mechanics. I would reccomend [Dr. Eugene Lim's (KCL) notes](https://nms.kcl.ac.uk/eugene.lim/teach/statmech/sm.html) as I studied the subject through them but they're currently unavailable. [This paper](https://arxiv.org/pdf/1708.02730.pdf) goes over the calculation in a similar way)
+(This calculation uses the tools of statistical mechanics. I would recommend [Dr. Eugene Lim's (KCL) notes](https://nms.kcl.ac.uk/eugene.lim/teach/statmech/sm.html) as I studied the subject through them but they're currently unavailable. [This paper](https://arxiv.org/pdf/1708.02730.pdf) goes over the calculation in quite a similar way)
 
 # Introduction
 A 'white dwarf' is a stellar remnant left behind when stars with a mass less than  $1.44 M_{\odot}$ (the Chandrasekhar limit) reach the end of their lifecycles. Their stability from collapsing in on theirselves due to the force of gravity depends on the pressure that is exerted outwards. This is called 'electron degeneracy pressure', which has it's origins in quantum mechanics [^1].
-
 
 # Degenerate Fermion Gas
 We can begin by thinking of the two branches of elementary particles: bosons and fermions. The difference between them is that bosons have integer 'spin' and fermions have half-integer 'spin', where 'spin' is an intrinsic angular momentum quantum number (examples: electrons are fermions with a spin of 1/2. The photon is a boson with a spin of 1). Fermions follow a very important rule called the *'Pauli exclusion principle'* which can be stated as follows,
@@ -38,7 +37,7 @@ $$
 $$
 
 
-Here, $E_{\vec{k}}$ tells us the energy of the state $\vec{k}$, $\mu$ is called the energy potential and $\beta = 1/K_{B}T$ where $T$ is the temperature and $K_{B}$ is Boltzmann's constant.
+Here, $E_{\vec{k}}$ tells us the energy of the state $\vec{k}$, $\mu$ is called the chemical potential and $\beta = 1/K_{B}T$ where $T$ is the temperature and $K_{B}$ is Boltzmann's constant.
 
 The behaviour of the Fermi - Dirac distribution is quite easy to think about, at low temperatures. Lucky for us, this is the regime that we're interested in. When the temperature is very low, the parameter $\beta$ is large. The Fermi-Dirac distribution turns into a 'step function' as shown below.
 
@@ -62,7 +61,7 @@ At low energies, the fermions will have low momenta. However, recall that Pauli 
 
 ## Energy of a Non-Relativistic Degenerate Electron Gas
 
-We can model a white dwarf as a a degenerate gas composed of electrons. Calculating the total number of electrons using the _non-relativistic_ 'density of states',
+We can model a white dwarf as a degenerate gas composed of electrons. Calculating the total number of electrons using the _non-relativistic_ 'density of states',
 
 $$
 \label{eq:nonrel}
@@ -195,7 +194,8 @@ $$
 
 where $B$ is a constant. This is the minimum mass that a star should have if it is to be supported by electron degeneracy pressure. This means that we wouldn't find any white dwarfs more masssive than this.
 
-Subramanyan Chandrasekhar first calculated this limit (more accurately, using another approach) to be $M_{Chandra} = 1.44M_{\odot}$. In our approach, we have used many assumptions (like taking $M = \langle N \rangle m_{p}$), whereas we should really take into account the 'equation of state'.
+[Subramanyan Chandrasekhar](https://en.wikipedia.org/wiki/Subrahmanyan_Chandrasekhar) first calculated this limit (more accurately, using another approach) to be $M_{Chandra} = 1.44M_{\odot}$. In our approach, we have used many assumptions (like taking $M = \langle N \rangle m_{p}$) whereas we should really take into account the 'equation of state'.
+
 
 # References
 [^1]: Statistical Mechanics (Lectures notes), Eugene A. Lim (2019)
