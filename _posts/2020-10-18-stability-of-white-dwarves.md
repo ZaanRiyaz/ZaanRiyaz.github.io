@@ -4,7 +4,7 @@ modified:
 categories: Notes
 excerpt: "A brief look at the physics behind how electron degeneracy pressure holds a white dwarf from collapsing into itself any further."
 tags: [statistical mechanics, astrophysics]
-date: 2020-10-13
+date: 2020-10-18
 toc: true
 classes: wide
 header:
