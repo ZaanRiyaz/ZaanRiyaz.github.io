@@ -3,7 +3,7 @@ title: "A Look At The Stability of White Dwarfs"
 modified:
 categories: Notes
 excerpt: "A brief look at the physics behind how electron degeneracy pressure holds a white dwarf from collapsing into itself any further."
-tags: []
+tags: [statistical mechanics, astrophysics]
 date: 2020-10-13
 toc: true
 classes: wide
