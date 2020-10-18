@@ -14,7 +14,7 @@ header:
 (This calculation uses the tools of statistical mechanics. I would recommend [Dr. Eugene Lim's (KCL) notes](https://nms.kcl.ac.uk/eugene.lim/teach/statmech/sm.html) as I studied the subject through them but they're currently unavailable. [This paper](https://arxiv.org/pdf/1708.02730.pdf) goes over the calculation in quite a similar way)
 
 # Introduction
-A 'white dwarf' is a stellar remnant left behind when stars with a mass less than  $1.44 M_{\odot}$ (the Chandrasekhar limit) reach the end of their lifecycles. Their stability from collapsing in on theirselves due to the force of gravity depends on the pressure that is exerted outwards. This is called 'electron degeneracy pressure', which has it's origins in quantum mechanics [^1].
+A 'white dwarf' is a stellar remnant left behind when stars with a mass less than  $1.44 M_{\odot}$ (the Chandrasekhar limit) reach the end of their lifecycles. Their stability from collapsing in on theirselves due to the force of gravity depends on the pressure that is exerted outwards. This is called 'electron degeneracy pressure', which has it's origins in quantum mechanics [^1],[^2].
 
 
 {: style="text-align:center"}
@@ -201,3 +201,4 @@ where $B$ is a constant. This is the minimum mass that a star should have if it 
 
 # References
 [^1]: Statistical Mechanics (Lectures notes), Eugene A. Lim (2019)
+[^2]: Lectures on Statistical Physics, David Tong (2012)
