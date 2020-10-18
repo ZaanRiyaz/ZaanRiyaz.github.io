@@ -11,7 +11,7 @@ header:
     image: /assets/images/posts/siriusb.png
     caption: "Sirius B, simulated in [**Universe Sandbox**](https://store.steampowered.com/app/230290/)"
 ---
-(This calculation uses the tools of statistical mechanics. I would recommend [Dr. Eugene Lim's (KCL) notes](https://nms.kcl.ac.uk/eugene.lim/teach/statmech/sm.html) as I studied the subject through them but they're currently unavailable. [This paper](https://arxiv.org/pdf/1708.02730.pdf) goes over the calculation in quite a similar way)
+(This calculation uses the tools of statistical mechanics. I would recommend [Dr. Eugene Lim's notes](https://nms.kcl.ac.uk/eugene.lim/teach/statmech/sm.html){:target="_blank"} as I studied the subject through them but they're currently unavailable. [This paper](https://arxiv.org/pdf/1708.02730.pdf){:target="_blank"} goes over the calculation in quite a similar way and so does [Prof. David Tong's notes](http://www.damtp.cam.ac.uk/user/tong/statphys.html){:target="_blank"})
 
 # Introduction
 A 'white dwarf' is a stellar remnant left behind when stars with a mass less than  $1.44 M_{\odot}$ (the Chandrasekhar limit) reach the end of their lifecycles. Their stability from collapsing in on theirselves due to the force of gravity depends on the pressure that is exerted outwards. This is called 'electron degeneracy pressure', which has it's origins in quantum mechanics [^1],[^2].
@@ -65,7 +65,7 @@ At low energies, the fermions will have low momenta. However, recall that Pauli 
 
 ## Energy of a Non-Relativistic Degenerate Electron Gas
 
-We can model a white dwarf as a degenerate gas composed of electrons. Calculating the total number of electrons using the _non-relativistic_ '[density of states](https://en.wikipedia.org/wiki/Density_of_states)',
+We can model a white dwarf as a degenerate gas composed of electrons. Calculating the total number of electrons using the _non-relativistic_ '[density of states](https://en.wikipedia.org/wiki/Density_of_states){:target="_blank"}',
 
 $$
 \label{eq:nonrel}
@@ -196,9 +196,9 @@ $$
 
 where $B$ is a constant. This is the minimum mass that a star should have if it is to be supported by electron degeneracy pressure. This means that we wouldn't find any white dwarfs more masssive than this.
 
-[Subramanyan Chandrasekhar](https://en.wikipedia.org/wiki/Subrahmanyan_Chandrasekhar) first calculated this limit (more accurately, using another approach) to be $M_{Chandra} = 1.44M_{\odot}$. In our approach, we have used many assumptions (like taking $M = \langle N \rangle m_{p}$) whereas we should really take into account the '[equation of state](https://en.wikipedia.org/wiki/Equation_of_state)'.
+[Subramanyan Chandrasekhar](https://en.wikipedia.org/wiki/Subrahmanyan_Chandrasekhar){:target="_blank"} first calculated this limit (more accurately, using another approach) to be $M_{Chandra} = 1.44M_{\odot}$. In our approach, we have used many assumptions (like taking $M = \langle N \rangle m_{p}$) whereas we should really take into account the '[equation of state](https://en.wikipedia.org/wiki/Equation_of_state){:target="_blank"}'.
 
 
 # References
-[^1]: [Statistical Mechanics](https://nms.kcl.ac.uk/eugene.lim/teach/statmech/sm.html) (Lectures notes), Eugene A. Lim (2019)
-[^2]: [Lectures on Statistical Physics](http://www.damtp.cam.ac.uk/user/tong/statphys.html), David Tong (2012)
+[^1]: [Statistical Mechanics](https://nms.kcl.ac.uk/eugene.lim/teach/statmech/sm.html){:target="_blank"} (Lectures notes), Eugene A. Lim (2019)
+[^2]: [Lectures on Statistical Physics](http://www.damtp.cam.ac.uk/user/tong/statphys.html){:target="_blank"}, David Tong (2012)
