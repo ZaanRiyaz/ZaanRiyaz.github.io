@@ -190,7 +190,7 @@ $$
 Following what was done for the non-relativistic case, we can minimise the total energy with respect to R (by calculating $\frac{dE_{Total}}{dR}$ and setting it equal to $0$). We would find that any reference to the radius would drop out of the equation. Instead, if we calculate the second derivative and ensure it is greater than $0$ (because we're looking for a minimum), we would find a limit on the mass of the star that ensures that the equilibrium between the gravity and electron degeneracy pressure is _stable_:
 
 $$
-\frac{d^{2}E_{Total}}{dR^{2}} > 0 \implies M < B \bigg( \frac{\hbar c}{G} \bigg)^{3/2}\frac{1}{m_{p}^{2}} \simeq 1.89 M_{\odot}
+\frac{d^{2}E_{Total}}{dR^{2}} > 0 \implies M \lessapprox B \bigg( \frac{\hbar c}{G} \bigg)^{3/2}\frac{1}{m_{p}^{2}} \simeq 1.89 M_{\odot}
 \tag{16}
 $$
 
