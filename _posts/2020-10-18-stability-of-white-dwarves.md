@@ -19,7 +19,7 @@ A 'white dwarf' is a stellar remnant left behind when stars with a mass less tha
 
 {: style="text-align:center"}
 ![Image](/assets/images/posts/Sirius_A_and_B_Hubble_photo.editted.png)
-<figcaption><em>Figure 1: Sirius A (larger) and Sirius B (smaller). Sirius B is a white dwarf. [NASA - Public Domain]</em></figcaption>
+<figcaption><em>Figure 1: Sirius A (larger) and Sirius B (smaller). Sirius A is a 'main sequence' star whereas Sirius B is a white dwarf. [NASA - Public Domain]</em></figcaption>
 
 
 
@@ -170,8 +170,6 @@ $$
 \tag{13}
 $$
 
-\[This next step is a bit dodgy to me but I'm thinking of a good way to think about this \]
-
 Looking at equation \eqref{eq:newfermion}, we can neglect all the terms except the first term in the parantheses and 'flip' the equation as done previously in equation \eqref{eq:fermiFlipped} to write:
 
 $$
@@ -198,7 +196,7 @@ $$
 
 where $B$ is a constant. This is the minimum mass that a star should have if it is to be supported by electron degeneracy pressure. This means that we wouldn't find any white dwarfs more masssive than this.
 
-[Subramanyan Chandrasekhar](https://en.wikipedia.org/wiki/Subrahmanyan_Chandrasekhar) first calculated this limit (more accurately, using another approach) to be $M_{Chandra} = 1.44M_{\odot}$. In our approach, we have used many assumptions (like taking $M = \langle N \rangle m_{p}$) whereas we should really take into account the 'equation of state' -- for accuracy.
+[Subramanyan Chandrasekhar](https://en.wikipedia.org/wiki/Subrahmanyan_Chandrasekhar) first calculated this limit (more accurately, using another approach) to be $M_{Chandra} = 1.44M_{\odot}$. In our approach, we have used many assumptions (like taking $M = \langle N \rangle m_{p}$) whereas we should really take into account the '[equation of state](https://en.wikipedia.org/wiki/Equation_of_state)'.
 
 
 # References
