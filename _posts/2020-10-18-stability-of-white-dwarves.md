@@ -200,5 +200,5 @@ where $B$ is a constant. This is the minimum mass that a star should have if it 
 
 
 # References
-[^1]: Statistical Mechanics (Lectures notes), Eugene A. Lim (2019)
-[^2]: Lectures on Statistical Physics, David Tong (2012)
+[^1]: [Statistical Mechanics](https://nms.kcl.ac.uk/eugene.lim/teach/statmech/sm.html) (Lectures notes), Eugene A. Lim (2019)
+[^2]: [Lectures on Statistical Physics](http://www.damtp.cam.ac.uk/user/tong/statphys.html), David Tong (2012)
