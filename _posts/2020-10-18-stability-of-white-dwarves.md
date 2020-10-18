@@ -11,8 +11,6 @@ header:
     image: /assets/images/posts/siriusb.png
     caption: "Sirius B, simulated in [**Universe Sandbox**](https://store.steampowered.com/app/230290/)"
 ---
-```zaan [10/16]: need to check if all equation references are correct. Also need to add references and cite things. Also need some more pictures.```
-
 (This calculation uses the tools of statistical mechanics. I would recommend [Dr. Eugene Lim's (KCL) notes](https://nms.kcl.ac.uk/eugene.lim/teach/statmech/sm.html) as I studied the subject through them but they're currently unavailable. [This paper](https://arxiv.org/pdf/1708.02730.pdf) goes over the calculation in quite a similar way)
 
 # Introduction
