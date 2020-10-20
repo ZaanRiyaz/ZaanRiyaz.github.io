@@ -35,7 +35,7 @@ For instance, if particle A has quantum numbers (1,1,1) then another particle B 
 The Fermi - Dirac distribution tells us about the average number of fermions in a particular quantum state. If we label these states as $\vec{k}$, the Fermi - Dirac distribution is:
 
 $$
-    \langle N_{\vec{k}}\rangle = \frac{1}{e^{\beta(E_{\vec{k}} - \mu) + 1}} 
+    \langle N_{\vec{k}}\rangle = \frac{1}{e^{\beta(E_{\vec{k}} - \mu)}+1} 
 \tag{1} 
 $$
 
