@@ -9,6 +9,6 @@ header:
 author_profile: true
 ---
 # My name is Zaan.
-I am a postgraduate student in theoretical physics. My main interests are primarily in between *Quantum Field Theory* (which describes particles as excitations of a 'quantum field') and *General Relativity* (which is the theory of gravity). In other words, I am interested in particle physics, gravity and cosmology.
+I am a postgraduate student in theoretical physics. My main interests are primarily in *Quantum Field Theory* (which describes particles as excitations of a 'quantum field').
 
 Most recently, I was awarded an MSc degree in *Theoretical Physics* from the University of Edinburgh. Prior to that, I was awarded a BSc degree in *Physics with Theoretical Physics* from King's College London.
