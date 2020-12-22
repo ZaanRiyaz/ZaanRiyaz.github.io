@@ -28,7 +28,7 @@ We can begin by thinking of the two branches of elementary particles: bosons and
 
 > "No two fermions can exhibit the same quantum numbers in a quantum system".
 
-For instance, if particle A has quantum numbers (1,1,1) then another particle B can't have quantum numbers (1,1,1) because it violates Pauli exclusion. Anything else is permitted.
+For instance, if particle A has quantum numbers (1,1,1) then another particle B can't have quantum numbers (1,1,1) because it violates Pauli exclusion. Anxything else is permitted.
 
 ## Fermi - Dirac Distribution
 
