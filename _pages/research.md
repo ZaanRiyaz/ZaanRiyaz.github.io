@@ -14,6 +14,6 @@ header:
 
 + Summer Internship (2018) - "Cosmic Microwave Background Perturbations" \[ [KURF](https://web.archive.org/web/20190326003440/https://www.kcl.ac.uk/campuslife/ke/ug-rfs/ugrfs-home.aspx) \]
 
-+ BSc Final Year Project (2019) - "Gravitational Waves"
++ BSc Final Year Project (2019) - "Gravitational Waves From Non-Axisymmetric Neutron Stars"
 
 + MSc Dissertation (2020) - "A Composite Higgs Doublet From The CCWZ Approach"
