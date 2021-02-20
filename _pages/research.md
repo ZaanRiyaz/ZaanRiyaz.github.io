@@ -16,4 +16,4 @@ header:
 
 + BSc Final Year Project (2019) - Gravitational Waves From Non-Axisymmetric Neutron Stars
 
-+ MSc Dissertation (2020) - "A Composite Higgs Doublet From The CCWZ Approach"
++ MSc Dissertation (2020) - A Composite Higgs Doublet From The CCWZ Approach
