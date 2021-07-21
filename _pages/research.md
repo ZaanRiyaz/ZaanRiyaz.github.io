@@ -12,8 +12,8 @@ header:
 
 ## 2018 - 2020
 
-+ MSc Dissertation (2020) - A Composite Higgs Doublet From The CCWZ Approach
++ MSc Dissertation (2020) - A Composite Higgs Doublet From The CCWZ Approach.
 
-+ BSc Final Year Project (2019) - Gravitational Waves From Non-Axisymmetric Neutron Stars
++ BSc Final Year Project (2019) - Gravitational Waves From Non-Axisymmetric Neutron Stars.
 
-+ Summer Internship (2018) - Cosmic Microwave Background Perturbations \[ [KURF](https://web.archive.org/web/20190326003440/https://www.kcl.ac.uk/campuslife/ke/ug-rfs/ugrfs-home.aspx) \]
++ Summer Internship (2018) - Cosmic Microwave Background Perturbations \[ [KURF](https://web.archive.org/web/20190326003440/https://www.kcl.ac.uk/campuslife/ke/ug-rfs/ugrfs-home.aspx) \].
