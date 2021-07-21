@@ -117,7 +117,7 @@ author:
       # url: "https://github.com/zaanriyaz"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/zaan"
+      # url: ""
 
 # Site Footer
 footer:
