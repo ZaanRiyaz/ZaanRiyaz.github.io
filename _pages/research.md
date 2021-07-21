@@ -6,9 +6,14 @@ header:
   overlay_color: "#000"
   overlay_filter: "0"
   overlay_image: /assets/splash/gravitationalwaves.jpg
+author_profile: true
 ---
 
 (This is a short list of projects that I have been involved in)
+
+## 2021 - 
+
++ Summer Project (2021) - Factorisation Theorems and Parton Distribution Functions in Soft Collinear Effective Theory
 
 ## 2018 - 2020
 
