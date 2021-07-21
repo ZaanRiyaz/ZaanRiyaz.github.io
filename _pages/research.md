@@ -9,9 +9,9 @@ header:
 author_profile: true
 ---
 
-# Projects
+# Here are some projects I've been involved in.
 
-+ Summer Project (2021) - Factorisation Theorems and Parton Distribution Functions in Soft Collinear Effective Theory
++ Summer Project (2021) - Factorisation Theorems & Parton Distribution Functions in Soft Collinear Effective Theory
 
 + MSc Dissertation (2020) - A Composite Higgs Doublet From The CCWZ Approach
 
