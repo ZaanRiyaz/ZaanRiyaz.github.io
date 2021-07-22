@@ -1,5 +1,5 @@
 ---
-title: "Home"
+title: "Hello"
 layout: single
 header:
   overlay_color: "#000"
