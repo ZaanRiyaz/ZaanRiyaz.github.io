@@ -12,3 +12,5 @@ author_profile: true
 I am a postgraduate student in theoretical physics. My main interests are primarily in *Quantum Field Theory* (QFT). Problems in particle physics, quantum gravity and cosmology are what I like to think about.
 
 Most recently, I obtained an MSc degree in *Theoretical Physics* from the University of Edinburgh. Prior to that, I obtained a BSc degree in *Physics with Theoretical Physics* from King's College London.
+
+I grew up in the Maldives, a small archipelago in the middle of the Indian Ocean known mainly for tourism.
