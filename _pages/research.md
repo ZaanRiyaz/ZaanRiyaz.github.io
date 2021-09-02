@@ -8,7 +8,7 @@ header:
   overlay_image: /assets/splash/gravitationalwaves.jpg
 author_profile: true
 ---
-My main focus is the Renormalization Group in Quantum Field Theory.
+My main focus is the [Renormalization Group](#renormalization-group-rg) in [Quantum Field Theory](#quantum-field-theory-qft).
 
 ## Quantum Field Theory (QFT)
 In essence, this is the theory used to study particles and their interactions. For instance, we can use QFT to make predictions for quantities like the anomalous magnetic moment of the electron which can then measured by and compared to experiment.
