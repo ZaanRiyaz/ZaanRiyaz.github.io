@@ -11,7 +11,7 @@ author_profile: true
 If you would like a longer version of my CV as a PDF, [you can find it here](https://zaanriyaz.github.io)
 
 # Education
-+ **2021-**  >  *[University of Sussex](https://www.sussex.ac.uk/tpp/)* <br>(PhD Physics)
++ **2021-**  >  *[University of Sussex](https://www.sussex.ac.uk/tpp/)* <br>(DPhil Physics)
 
 + **2019-2020**  >  *[University of Edinburgh](https://www.ph.ed.ac.uk)* <br>(MSc Theoretical Physics)
 
