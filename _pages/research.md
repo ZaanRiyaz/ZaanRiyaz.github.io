@@ -7,6 +7,7 @@ permalink: /research/
 #  overlay_filter: "0"
 #  overlay_image: /assets/splash/gravitationalwaves.jpg
 author_profile: true
+classes: wide
 ---
 My main focus is the [Renormalization Group](#renormalization-group-rg) in [Quantum Field Theory](#quantum-field-theory-qft).
 
