@@ -29,3 +29,7 @@ If you would like a longer version of my CV as a PDF, [you can find it here](htt
 + BSc Final Year Project (2019) - Gravitational Waves From Non-Axisymmetric Neutron Stars [ KCL ]
 
 + Summer Internship (2018) - Cosmic Microwave Background Perturbations \[ [KURF](https://web.archive.org/web/20190326003440/https://www.kcl.ac.uk/campuslife/ke/ug-rfs/ugrfs-home.aspx), KCL \]
+
+# Awards & Honours
+
++ King's Undergraduate Research Fellowship (2018) [ KCL ]
