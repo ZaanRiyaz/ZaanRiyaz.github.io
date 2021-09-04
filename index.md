@@ -1,13 +1,15 @@
 ---
 title: "Hello"
 layout: single
-header:
-  overlay_color: "#000"
-  overlay_filter: "0.5"
-  overlay_image: /assets/splash/andromeda.jpg
+#header:
+#  overlay_color: "#000"
+#  overlay_filter: "0.5"
+#  overlay_image: /assets/splash/andromeda.jpg
 author_profile: true
 ---
-# My name is Zaan.
+# My name is Nahzaan
+
+-- but you can call me Zaan as well.
 
 I am a PhD student in Theoretical Physics at the University of Sussex. I work with Quantum Field Theory and I am mainly interested in the Renormalization Group.
 

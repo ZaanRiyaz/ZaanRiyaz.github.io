@@ -2,10 +2,10 @@
 title: "Research"
 layout: single
 permalink: /research/
-header:
-  overlay_color: "#000"
-  overlay_filter: "0"
-  overlay_image: /assets/splash/gravitationalwaves.jpg
+#header:
+#  overlay_color: "#000"
+#  overlay_filter: "0"
+#  overlay_image: /assets/splash/gravitationalwaves.jpg
 author_profile: true
 ---
 My main focus is the [Renormalization Group](#renormalization-group-rg) in [Quantum Field Theory](#quantum-field-theory-qft).

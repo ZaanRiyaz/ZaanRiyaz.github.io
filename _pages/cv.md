@@ -1,11 +1,11 @@
 ---
-title: "About"
+title: "CV"
 layout: single
 permalink: /cv/
-header:
-  overlay_color: "#000"
-  overlay_filter: "0.5"
-  overlay_image: /assets/splash/wardidentity.jpg
+#header:
+#  overlay_color: "#000"
+#  overlay_filter: "0.5"
+#  overlay_image: /assets/splash/wardidentity.jpg
 author_profile: true
 ---
 If you would like a longer version of my CV as a PDF, [you can find it here](https://zaanriyaz.github.io)
