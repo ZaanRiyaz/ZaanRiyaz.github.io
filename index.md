@@ -1,5 +1,5 @@
 ---
-title: "Hello"
+title: "Hello, my name is Nahzaan"
 layout: single
 #header:
 #  overlay_color: "#000"
@@ -7,7 +7,6 @@ layout: single
 #  overlay_image: /assets/splash/andromeda.jpg
 author_profile: true
 ---
-# My name is Nahzaan
 
 -- but you can call me Zaan as well.
 
