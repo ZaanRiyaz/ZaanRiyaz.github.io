@@ -98,7 +98,9 @@ author:
   avatar           : "/assets/images/zaanface.jpg"
   bio              : "PhD Student in Theoretical Physics at the University of Sussex"
   location         : "Brighton, England"
-  email            :
+  #email            :  ""
+  orcid            : "0000-0000-0000-1175"
+  twitter      : "zaanriyaz"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -108,7 +110,7 @@ author:
       # url: "https://your-website.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/zaanriyaz"
+      #url: ""
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
@@ -118,7 +120,7 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: ""
-
+      
 # Site Footer
 footer:
   links:

@@ -326,6 +326,14 @@ body:hover .visually-hidden button {
   }
 }
 
+  /* custom 'brand' colors */
+
+  .ai-orcid,
+  .ai-orcid-square {
+    color: $orcid-color;
+  }
+
+
 /*
    Navicons
    ========================================================================== */
