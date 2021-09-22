@@ -8,7 +8,7 @@ permalink: /cv/
 #  overlay_image: /assets/splash/wardidentity.jpg
 author_profile: true
 ---
-If you would like a longer version of my CV as a PDF, [you can find it here](https://zaanriyaz.github.io)
+If you would like a longer version of my CV as a PDF, [you can find it here](https://zaanriyaz.github.io/assets/files/cv2.pdf)
 
 # Education
 + **2021-**  >  *[University of Sussex](https://www.sussex.ac.uk/tpp/)* <br>(DPhil Physics)
