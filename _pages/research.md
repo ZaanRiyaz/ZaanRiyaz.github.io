@@ -8,4 +8,4 @@ permalink: /research/
 #  overlay_image: /assets/splash/gravitationalwaves.jpg
 author_profile: true
 ---
-My main focus is the Renormalization Group in Quantum Field Theory.
+My focus is fixed points in theories of particle physics beyond the Standard Model.

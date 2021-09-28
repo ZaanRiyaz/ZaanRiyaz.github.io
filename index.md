@@ -10,7 +10,7 @@ author_profile: true
 
 -- but you can call me Zaan as well.
 
-I am a PhD student in Theoretical Physics at the University of Sussex. What interests me is Quantum Field Theory, and the Renormalization Group.
+I am a PhD student in Theoretical Physics at the University of Sussex. What interests me is fixed points in theories of particle physics beyond the Standard Model.
 
 Before starting my PhD, I obtained an MSc degree in *Theoretical Physics* from the University of Edinburgh. Prior to that, I obtained a BSc degree in *Physics with Theoretical Physics* from King's College London.
 
