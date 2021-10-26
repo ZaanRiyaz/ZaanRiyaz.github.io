@@ -8,4 +8,4 @@ permalink: /research/
 #  overlay_image: /assets/splash/gravitationalwaves.jpg
 author_profile: true
 ---
-My focus is fixed points in theories of particle physics beyond the Standard Model.
+I mainly focus on fixed points in particle physics and theories beyond the Standard Model.
