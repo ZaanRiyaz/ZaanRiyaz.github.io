@@ -20,7 +20,7 @@ title                    : "Nahzaan Riyaz"
 title_separator          : "|"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Nahzaan Riyaz"
-description              : "I'm a PhD student in Theoretical Physics."
+description              : "I'm a PhD student in Theoretical Physics working on fixed points in particle physics."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
